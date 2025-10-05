@@ -16,29 +16,29 @@ export default function Gallery() {
           <Image
             src="/assets/prints/1light.svg"
             alt="Capture thoughts in a second"
-            width={1817 / 8}
-            height={964 / 8}
+            width={1817 / 10}
+            height={964 / 10}
             className="rounded-md dark:hidden"
           />
           <Image
             src="/assets/prints/1dark.svg"
             alt="Capture thoughts in a second"
-            width={1817 / 8}
-            height={964 / 8}
+            width={1817 / 10}
+            height={964 / 10}
             className="rounded-md hidden dark:block"
           />
           <Image
             src="/assets/prints/2light.svg"
             alt="Create and manage easily"
-            width={1817 / 8}
-            height={964 / 8}
+            width={1817 / 10}
+            height={964 / 10}
             className="rounded-md dark:hidden"
           />
           <Image
             src="/assets/prints/2dark.svg"
             alt="Create and manage easily"
-            width={1817 / 8}
-            height={964 / 8}
+            width={1817 / 10}
+            height={964 / 10}
             className="rounded-md hidden dark:block"
           />
         </div>
@@ -46,29 +46,29 @@ export default function Gallery() {
           <Image
             src="/assets/prints/3light.svg"
             alt="Customize to fit your needs an style"
-            width={1817 / 8}
-            height={964 / 8}
+            width={1817 / 10}
+            height={964 / 10}
             className="rounded-md dark:hidden"
           />
           <Image
             src="/assets/prints/3dark.svg"
             alt="Customize to fit your needs an style"
-            width={1817 / 8}
-            height={964 / 8}
+            width={1817 / 10}
+            height={964 / 10}
             className="rounded-md hidden dark:block"
           />
           <Image
             src="/assets/prints/4light.svg"
             alt="Organize your chaos"
-            width={1817 / 8}
-            height={964 / 8}
+            width={1817 / 10}
+            height={964 / 10}
             className="rounded-md dark:hidden"
           />
           <Image
             src="/assets/prints/4dark.svg"
             alt="Organize your chaos"
-            width={1817 / 8}
-            height={964 / 8}
+            width={1817 / 10}
+            height={964 / 10}
             className="rounded-md hidden dark:block"
           />
         </div>
