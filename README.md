@@ -1,36 +1,26 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ThinkDo App
 
-## Getting Started
+This is the official landing page for **ThinkDo**, a minimalist note-taking application designed to capture and organize ideas without distractions. The website is built to be fast, modern, and fully responsive, reflecting the core philosophy of the app itself.
 
-First, run the development server:
+**Live Site:** [**https://thinkdo.vercel.app/**](https://thinkdo.vercel.app/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Fully Responsive Design:** Optimized user experience for desktops, tablets, and smartphones.
+- **Optimized Performance:** Built with Next.js to ensure fast loading times and an excellent Core Web Vitals score.
+- **Semantic & Accessible HTML:** Code structure that follows the best practices for SEO and accessibility.
+- **Smooth Scrolling:** Elegant and fluid navigation between page sections.
+- **Modern & Minimalist UI:** A clean design that focuses on content and reflects the ThinkDo brand identity.
+- **SEO Ready:** Optimized metadata for better visibility on search engines like Google.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## Technologies
 
-To learn more about Next.js, take a look at the following resources:
+This project was built using the following technologies:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **React:** The core JavaScript library used for building the user interface and managing the component-based architecture.
+- **Next.js:** A React framework that provides the structure for the application, including routing (App Router), performance optimizations, and an enhanced developer experience.
+- **Tailwind CSS:** A utility-first CSS framework used for all styling. It allows for building a custom, responsive design directly within the JSX markup.
