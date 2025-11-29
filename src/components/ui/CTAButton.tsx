@@ -1,4 +1,5 @@
 import React from "react"
+import { IoLogoGooglePlaystore } from "react-icons/io5";
 
 interface CTAButtonProps {
   text: string
@@ -12,9 +13,9 @@ export default function CTAButton({ text }: CTAButtonProps) {
       href={url}
       target="_blank"
       rel="noopener noreferrer"
-      className="bg-primary text-foreground-light px-4 py-2 rounded-md flex flex-1 justify-center items-center h-full text-center md:text-lg"
+      className="inline-flex items-center justify-center bg-primary text-foreground-light px-6 py-3 rounded-lg transition-opacity duration-200 hover:opacity-90 font-medium text-base"
     >
-      {text}
+      <IoLogoGooglePlaystore className="size-5 mr-2" /> {text}
     </a>
   )
 }

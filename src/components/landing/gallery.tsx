@@ -1,5 +1,8 @@
-import Image from "next/image"
+import ThemeImage from "../ui/themeImage"
 import Title from "../ui/title"
+
+const IMAGE_WIDTH = 1817 / 10
+const IMAGE_HEIGHT = 964 / 10
 
 export default function Gallery() {
   return (
@@ -12,66 +15,43 @@ export default function Gallery() {
           interface can boost your productivity.
         </p>
 
-        <div className="py-5 flex flex-row gap-5 lg:gap-10 justify-center">
-          <Image
-            src="/assets/prints/1light.svg"
+        <div className="py-5 grid grid-cols-2 lg:grid-cols-4 lg:px-40 gap-5 justify-items-center">
+
+          <ThemeImage
+            lightSrc="/assets/prints/1light.svg"
+            darkSrc="/assets/prints/1dark.svg"
             alt="Capture thoughts in a second"
-            width={1817 / 10}
-            height={964 / 10}
-            className="rounded-md dark:hidden"
+            width={IMAGE_WIDTH}
+            height={IMAGE_HEIGHT}
+            className="rounded-md "
           />
-          <Image
-            src="/assets/prints/1dark.svg"
-            alt="Capture thoughts in a second"
-            width={1817 / 10}
-            height={964 / 10}
-            className="rounded-md hidden dark:block"
-          />
-          <Image
-            src="/assets/prints/2light.svg"
+          <ThemeImage
+            lightSrc="/assets/prints/2light.svg"
+            darkSrc="/assets/prints/2dark.svg"
             alt="Create and manage easily"
-            width={1817 / 10}
-            height={964 / 10}
-            className="rounded-md dark:hidden"
+            width={IMAGE_WIDTH}
+            height={IMAGE_HEIGHT}
+            className="rounded-md"
           />
-          <Image
-            src="/assets/prints/2dark.svg"
-            alt="Create and manage easily"
-            width={1817 / 10}
-            height={964 / 10}
-            className="rounded-md hidden dark:block"
+          <ThemeImage
+            lightSrc="/assets/prints/3light.svg"
+            darkSrc="/assets/prints/3dark.svg"
+            alt="Customize to fit your needs an style"
+            width={IMAGE_WIDTH}
+            height={IMAGE_HEIGHT}
+            className="rounded-md"
+          />
+          <ThemeImage
+            lightSrc="/assets/prints/4light.svg"
+            darkSrc="/assets/prints/4dark.svg"
+            alt="Organize your chaos"
+            width={IMAGE_WIDTH}
+            height={IMAGE_HEIGHT}
+            className="rounded-md"
           />
         </div>
-        <div className="py-5 flex flex-row gap-5 lg:gap-10 justify-center">
-          <Image
-            src="/assets/prints/3light.svg"
-            alt="Customize to fit your needs an style"
-            width={1817 / 10}
-            height={964 / 10}
-            className="rounded-md dark:hidden"
-          />
-          <Image
-            src="/assets/prints/3dark.svg"
-            alt="Customize to fit your needs an style"
-            width={1817 / 10}
-            height={964 / 10}
-            className="rounded-md hidden dark:block"
-          />
-          <Image
-            src="/assets/prints/4light.svg"
-            alt="Organize your chaos"
-            width={1817 / 10}
-            height={964 / 10}
-            className="rounded-md dark:hidden"
-          />
-          <Image
-            src="/assets/prints/4dark.svg"
-            alt="Organize your chaos"
-            width={1817 / 10}
-            height={964 / 10}
-            className="rounded-md hidden dark:block"
-          />
-        </div>
+
+
       </div>
     </section>
   )

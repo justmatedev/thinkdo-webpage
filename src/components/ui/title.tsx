@@ -6,7 +6,7 @@ interface TitleProps {
 
 export default function Title({ text }: TitleProps) {
   return (
-    <h1 className="text-foreground-dark font-semibold text-center text-xl md:text-2xl lg:text-4xl py-5">
+    <h1 className="text-foreground-dark font-bold text-center text-3xl md:text-4xl lg:text-5xl py-5 tracking-tight">
       {text}
     </h1>
   )

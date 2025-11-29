@@ -13,10 +13,12 @@ interface FeatureProps {
 const Feature = ({ title, description, Icon }: FeatureProps) => {
   return (
     <div className="w-1/2 max-w-lg py-5 flex flex-col items-center gap-3">
-      <h2 className="text-center text-foreground-dark font-semibold text-lg md:text-xl lg:text-2xl">
+      <h2 className="text-center text-foreground-dark font-semibold text-xl md:text-2xl">
         {title}
       </h2>
-      <p className="text-foreground-dark lg:text-lg">{description}</p>
+      <p className="text-foreground-dark/80 text-base md:text-lg leading-relaxed text-center">
+        {description}
+      </p>
       <Icon className="text-primary w-1/6 size-10" />
     </div>
   )

@@ -5,7 +5,7 @@ import Footer from "@/components/landing/footer"
 import Gallery from "@/components/landing/gallery"
 import Header from "@/components/landing/header"
 import HeroSection from "@/components/landing/heroSection"
-import ProblemSoluctionSection from "@/components/landing/problemSoluctionSection"
+import ProblemSolutionSection from "@/components/landing/problemSolutionSection"
 
 export default function Home() {
   return (
@@ -13,7 +13,7 @@ export default function Home() {
       <Header />
       <main className="container mx-auto px-4">
         <HeroSection />
-        <ProblemSoluctionSection />
+        <ProblemSolutionSection />
         <FeaturesSection />
         <Gallery />
         <DeveloperSection />

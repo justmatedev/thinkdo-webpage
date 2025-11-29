@@ -4,6 +4,7 @@
   --background: #f6fce3;
   --foreground-light: #ededed;
   --foreground-dark: #19191a;
+  --foreground: var(--foreground-dark);
   --primary: #674ce8;
 }
 
@@ -20,12 +21,15 @@
     --background: #141414;
     --foreground-light: #121212;
     --foreground-dark: #e5e5e6;
+    --foreground: var(--foreground-dark);
     --primary: #9277ff;
   }
 }
+
 html {
   scroll-behavior: smooth;
 }
+
 body {
   background: var(--background);
   color: var(--foreground);
