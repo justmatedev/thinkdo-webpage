@@ -1,6 +1,6 @@
-# ThinkDo App
+# Thinkdo App
 
-This is the official landing page for **ThinkDo**, a minimalist note-taking application designed to capture and organize ideas without distractions. The website is built to be fast, modern, and fully responsive, reflecting the core philosophy of the app itself.
+This is the official landing page for **Thinkdo**, a minimalist note-taking application designed to capture and organize ideas without distractions. The website is built to be fast, modern, and fully responsive, reflecting the core philosophy of the app itself.
 
 **Live Site:** [**https://thinkdo.vercel.app/**](https://thinkdo.vercel.app/)
 
@@ -12,7 +12,7 @@ This is the official landing page for **ThinkDo**, a minimalist note-taking appl
 - **Optimized Performance:** Built with Next.js to ensure fast loading times and an excellent Core Web Vitals score.
 - **Semantic & Accessible HTML:** Code structure that follows the best practices for SEO and accessibility.
 - **Smooth Scrolling:** Elegant and fluid navigation between page sections.
-- **Modern & Minimalist UI:** A clean design that focuses on content and reflects the ThinkDo brand identity.
+- **Modern & Minimalist UI:** A clean design that focuses on content and reflects the Thinkdo brand identity.
 - **SEO Ready:** Optimized metadata for better visibility on search engines like Google.
 
 ---
